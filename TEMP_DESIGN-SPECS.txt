@@ -1,0 +1,392 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Academic Title Page
+% LaTeX Template
+% Version 2.0 (17/7/17)
+%
+% This template was downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% WikiBooks (LaTeX - Title Creation) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+% Instructions for using this template:
+% This title page is capable of being compiled as is. This is not useful for 
+% including it in another document. To do this, you have two options: 
+%
+% 1) Copy/paste everything between \begin{document} and \end{document} 
+% starting at \begin{titlepage} and paste this into another LaTeX file where you 
+% want your title page.
+% 2) Remove everything outside the \begin{titlepage} and \end{titlepage}, rename
+% this file and move it to the same directory as the LaTeX file you wish to add it to. 
+% Then add \input{./<new filename>.tex} to your LaTeX file where you want your
+% title page.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+
+\usepackage{mathpazo} % Palatino font
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for horizontal lines, change thickness here
+	
+	\center % Centre everything on the page
+	
+	%------------------------------------------------
+	%	Headings
+	%------------------------------------------------
+	
+	\textsc{\LARGE McMaster University}\\[1.5cm] % Main heading such as the name of your university/college
+	
+	\textsc{\Large Department of Computing and Software}\\[0.5cm] % Major heading such as course name
+	
+	\textsc{\large Comp Sci 2XB3}\\[0.5cm] % Minor heading such as course title
+	
+	%------------------------------------------------
+	%	Title
+	%------------------------------------------------
+	
+	\HRule\\[0.4cm]
+	
+	{\huge\bfseries DRUG FINDER}\\[0.4cm] % Title of your document
+	
+	\HRule\\[1.5cm]
+	
+	%------------------------------------------------
+	%	Author(s)
+	%------------------------------------------------
+	
+	\textsc{\large Version 01}\\[0.5cm] % Minor heading such as course title
+	\textsc{\large Group 04}\\[0.5cm] % Minor heading such as course title
+	
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushleft}
+			\large
+			\textit{Member 1}\\
+			Duncan \textsc{Mckay} % Your name
+		\end{flushleft}
+	\end{minipage}
+	~
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushright}
+			\large
+			\textit{Member 2}\\
+			Nikou \textsc{Kalbali} % Supervisor's name
+		\end{flushright}
+	\end{minipage}\\
+	
+	\vfill % Position the date 3/4 down the remaining page
+	
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushleft}
+			\large
+			\textit{Member 3}\\
+			Muyideen \textsc{Jimoh} % Supervisor's name
+		\end{flushleft}
+	\end{minipage}
+	
+	
+	% If you don't want a supervisor, uncomment the two lines below and comment the code above
+	%{\large\textit{Author}}\\
+	%John \textsc{Smith} % Your name
+	
+	%------------------------------------------------
+	%	Date
+	%------------------------------------------------
+	
+	\vfill\vfill\vfill % Position the date 3/4 down the remaining page
+	
+	{\large\today} % Date, change the \today to a set date if you want to be precise
+	
+	%------------------------------------------------
+	%	Logo
+	%------------------------------------------------
+	
+	%\vfill\vfill
+	%\includegraphics[width=0.2\textwidth]{placeholder.jpg}\\[1cm] % Include a department/university logo - this will require the graphicx package
+	 
+	%----------------------------------------------------------------------------------------
+	
+	\vfill % Push the date up 1/4 of the remaining page
+	
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+
+\newpage
+\textsc{\LARGE Revision and Team Mate Contributions}\\[1.5cm] % Main heading such as the name of your
+
+\textit{Member 1}: Duncan McKay, 00000000\\
+Roles: Project leader and lead-programmer. Responsible for managing the project and making sure we meet all the milestones and production of the prototype.\\\\
+Contributions: \\
+
+
+\textit{Member 2}: Nikou Kalbali, 00000000\\
+Roles: Log admin and programmer who is responsible for keeping the log as a living document of the project and helping with programming.\\\\
+Contributions:\\
+
+
+\textit{Member 3}: Muyideen Jimoh, 001327114\\
+Roles: Researcher and design programmer. Responsible for researching solutions and problems that arise during implementation and providing\\\\
+Contributions:\\\\
+
+\textit{Attestation and Consent}\\
+By virtue of submitting this document we electronically sign and date that the work being submitted by all the individuals in the group is their exclusive work as a group and we consent to make available the application developed through [CS] or [SE]-2XB3 project, the reports, presentations, and assignments (not including my name and student number) for future teaching purposes.
+
+\newpage
+\textsc{\LARGE Team Mate Contributions}\\[1.5cm] % Main heading such as the name of your
+
+\newpage
+
+\textsc{\LARGE Executive Summary}\\[1.5cm] % Main heading such as the name of your
+This product aims to return the aggregated price of prescribed drugs based on claims. The application domains are isolated to produce a secure and versatile process. The controller has access to everything in classes in model search. The user interface has structure that slows user to read the data. There is a drop-down menu per state per drug and each ﬁeld outputs a result. Creating a hash table enables us to hash each state and then each drug to a certain hash table. A loading module loads data stored in a text ﬁle which contains the hash table of csv (excel ﬁles). The stakeholders for this product include the regulatory bodies whose job is to ﬁnd out which states are charging more per drug and addressing the situation. Other stakeholders include consumers of drugs who pay money out of their pockets to buy certain drugs. This project will hopefully give insight to consumers about where to get the best price for a drug so that they can maximize their coverage plan by paying less for a speciﬁc drug that they are prescribed to use.
+
+\newpage
+
+\textsc{\LARGE Table of Content}\\[1.5cm] % Main heading such as the name of your
+
+\newpage
+
+
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{1.75in}
+\renewcommand\baselinestretch{1.0}
+
+\pagestyle {plain}
+\pagenumbering{arabic}
+
+\newcounter{stepnum}
+
+\begin{center}
+    
+\textsc{\LARGE MIS For Load Class}\\[1.5cm] % Main heading such as the name
+
+\end{center}
+
+\section* {Load Module}
+
+\subsection*{Module}
+
+Load
+
+\subsection* {Uses}
+
+Drug Module\\
+java.io.*\\
+java.util.*\\
+
+
+\subsection* {Syntax}
+
+\subsubsection* {Exported Constants}
+
+$Database Filename$: "PartD\_Prescriber\_PUF\_Drug\_St\_15.csv"\\
+$Hashes Filename$: "hash.txt"\\
+
+\subsubsection* {Exported Access Programs}
+
+\begin{tabular}{| l | l | l | l |}
+\hline
+\textbf{Routine name} & \textbf{In} & \textbf{Out} & \textbf{Exceptions}\\
+\hline
+Source &  &  & \\
+\hline
+load & Source &  & FileNotFoundException, IOException\\
+\hline
+loadDatabase &  & Iterable\textless Drug \textgreater& FileNotFoundException, IOException \\
+\hline
+createHashTables & Iterable\textless Drug \textgreater&  & FileNotFoundException, IOException\\
+\hline
+loadHashTables &  &  & FileNotFoundException\\
+\hline
+removeCommasAndDollars &  String &  String& \\
+\hline
+
+\end{tabular}
+
+\subsection* {Semantics}
+
+\subsubsection* {State Variables}
+
+HASH \\
+DATABASE\\ 
+
+\subsubsection* {State Invariant}
+N/A
+
+\subsubsection* {Assumptions}
+None
+
+\subsubsection* {Access Routine Semantics}
+
+\noindent load(src):
+\begin{itemize}
+\item output: ?
+\item exception: ?
+\end{itemize}
+
+\noindent loadDatabase():
+\begin{itemize}
+\item output: ?
+\item exception: ?
+\end{itemize}
+
+\noindent createHashTbales(drugs):
+\begin{itemize}
+\item output: ?
+\item exception: ?
+\end{itemize}
+
+\noindent loadHashTables():
+\begin{itemize}
+\item output: ?
+\item exception: ?
+\end{itemize}
+
+\noindent removeCommasAndDollars(in):
+\begin{itemize}
+\item output: ?
+\item exception: ?
+\end{itemize}
+
+\newpage
+
+
+\begin{center}
+    
+\textsc{\LARGE MIS For Drug Class}\\[1.5cm] % Main heading such as the name
+
+\end{center}
+
+\section* {Drug Module}
+
+\subsection*{Module}
+
+Drug
+
+\subsection* {Uses}
+
+N/A
+
+\subsection* {Syntax}
+
+\subsubsection* {Exported Constants}
+
+N/A
+
+\subsubsection* {Exported Access Programs}
+
+\begin{tabular}{| l | l | l | l |}
+\hline
+\textbf{Routine name} & \textbf{In} & \textbf{Out} & \textbf{Exceptions}\\
+\hline
+constructor & state, name, claims, aggregateCost &  & ~\\
+\hline
+constructor & Drug &  & ~\\
+\hline
+getName & & String& \\
+\hline
+getState & &  string& \\
+\hline
+getClaims & &  int& \\
+\hline
+getAggregateCost & &  int& \\
+\hline
+hastByName & &  int& \\
+\hline
+hashByState & &  int& \\
+\hline
+hash & &  int& \\
+\hline
+toString & &  String& \\
+\hline
+
+\end{tabular}
+
+\subsection* {Semantics}
+
+\subsubsection* {State Variables}
+
+$state$: Name of a State\\
+$name$: Name of the Drug\\
+$claims$: Amount of Drug Filed\\
+$aggregateCost$: Overall Cost for Drug Claims\\
+
+\subsubsection* {State Invariant}
+N/A
+
+\subsubsection* {Assumptions}
+None
+
+\subsubsection* {Access Routine Semantics}
+
+\noindent Drug($st, nm, cls, aggCst$):
+\begin{itemize}
+\item transition: $state, name, claims, aggregateCost:= st, nm, cls, aggCst$
+\item exception: none
+\end{itemize}
+
+\noindent getState():
+\begin{itemize}
+\item output: $out := state$
+\item exception: none
+\end{itemize}
+
+\noindent getName():
+\begin{itemize}
+\item output: $out := name$
+\item exception: none
+\end{itemize}
+
+\noindent getClaims():
+\begin{itemize}
+\item output: $out := claims$
+\item exception: none
+\end{itemize}
+
+\noindent getaggregateCost():
+\begin{itemize}
+\item output: $out := aggregateCost$
+\item exception: none
+\end{itemize}
+
+\noindent hashByName():
+\begin{itemize}
+\item output: $out := name.hashCode()$
+\item exception: none
+\end{itemize}
+
+\noindent hashByState():
+\begin{itemize}
+\item output: $out := state.hashCode()$
+\item exception: none
+\end{itemize}
+
+\noindent toString():
+\begin{itemize}
+\item output: \mbox{ state +", "+ name +", "+ claims +" claims, with aggregate cost of " + (aggregateCost/100.0)}
+\item exception: none
+\end{itemize}
+
+\end{document}
